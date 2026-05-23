@@ -1,2 +1,127 @@
-# adze
-ddd
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>عن مدرسة عرب الرمل الإعدادية المشتركة</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+  <style>
+    body {
+  padding-top: 80px; /* خليها 80 بدل 60 */
+  font-family: 'Cairo', sans-serif;
+  background: #f9f9f9;
+}
+
+    .section-title {
+      color: #007bff;
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #007bff;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .team-member {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgb(0 123 255 / 0.1);
+      padding: 15px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+    .team-member:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px rgb(0 123 255 / 0.3);
+    }
+    footer {
+      background: #003366;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-white">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/logo.jpg" alt="Logo" width="35" height="35" class="me-2 rounded-circle">
+      <span class="fw-bold">مدرسة عرب الرمل الإعدادية المشتركة</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="news.html">الأخبار</a></li>
+        <li class="nav-item"><a class="nav-link" href="results.html">النتائج</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">تواصل معنا</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">عن المدرسة</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+  <!-- Main Content -->
+  <div class="container mt-5">
+    <h1 class="section-title">عن المدرسة</h1>
+
+    <p>
+      تأسست مدرسة عرب الرمل الإعدادية المشتركة لتوفير تعليم عالي الجودة للطلاب في المرحلة الإعدادية، 
+      وتهدف إلى بناء جيل متميز مثقف ومبتكر قادر على مواجهة تحديات المستقبل بثقة وإبداع.
+    </p>
+
+    <h3 class="section-title mt-5">رؤيتنا</h3>
+    <p>
+      أن نكون نموذجًا رائدًا في التعليم الإعدادي يعزز القيم العلمية والثقافية والاجتماعية للطلاب ويعدهم
+      للمساهمة الفعالة في المجتمع.
+    </p>
+
+    <h3 class="section-title mt-5">رسالتنا</h3>
+    <p>
+      تقديم بيئة تعليمية محفزة وآمنة تُمكّن الطلاب من تطوير مهاراتهم الأكاديمية والشخصية، مع دعم الابتكار والتفكير النقدي.
+    </p>
+
+    <h3 class="section-title mt-5">أعضاء هيئة التدريس</h3>
+<div class="row">
+  <div class="col-md-6 col-12">
+    <div class="team-member text-center">
+      <img src="images/azab.webp" alt="الأستاذ عزب زايد" class="rounded-circle mb-3 img-fluid" width="150" height="150" />
+      <h5>الأستاذ عزب زايد</h5>
+      <p>مدير المدرسة</p>
+      <p><strong>📞 للتواصل:</strong> <a href="tel:01030203442">01030203442</a></p>
+    </div>
+  </div>
+  <div class="col-md-6 col-12">
+    <div class="team-member text-center">
+      <img src="images/basma.webp" alt="الدكتورة بسمة محفوظ حسن" class="rounded-circle mb-3 img-fluid" width="150" height="150" />
+      <h5>الدكتورة بسمة محفوظ حسن</h5>
+      <p>وكيلة المدرسة</p>
+      <p><strong>📞 للتواصل:</strong> <a href="tel:01018931429">01018931429</a></p>
+    </div>
+  </div>
+</div>
+
+    <h3 class="section-title mt-5">أهدافنا</h3>
+    <ul>
+      <li>تحفيز الطلاب على التعلم المستمر وتنمية مهارات التفكير النقدي.</li>
+      <li>توفير بيئة تعليمية آمنة ومحفزة.</li>
+      <li>تشجيع النشاطات الرياضية والثقافية والفنية.</li>
+      <li>تطوير الكوادر التعليمية بشكل مستمر.</li>
+      <li>تعزيز القيم الأخلاقية والاجتماعية.</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 مدرسة عرب الرمل الإعدادية المشتركة. جميع الحقوق محفوظة.
+  </footer>
+
+  <!-- Bootstrap JS (للسلوك التفاعلي) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
